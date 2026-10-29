@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-ground: #1c1c1c;
+  --surface: #262626;
+  --surface-elevated: #2f2f2f;
+  --ink: #f1f1ef;
+  --ink-muted: #c8c5ba;
+  --ink-dim: #9a9b96;
+  --accent: #8fa68e;
+  --accent-ink: #1c1c1c;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--bg-ground);
+  color: var(--ink);
+}
+
+body {
+  background-color: var(--bg-ground);
+  color: var(--ink);
+  font-family: 'Erode', Georgia, Cambria, 'Times New Roman', serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Erode', Georgia, Cambria, 'Times New Roman', serif;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+::selection {
+  background-color: #8fa68e;
+  color: #1c1c1c;
+}

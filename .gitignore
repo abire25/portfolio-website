@@ -1,0 +1,45 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# production & build
+/.next/
+/build/
+/out/
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# environment variables & secrets
+.env*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.token
+
+# private documents, resumes, and PDFs (DO NOT UPLOAD)
+*.pdf
+Profile.pdf
+resume.pdf
+Resume.pdf
+
+# design & agent working directories
+/.taste-skill/
+/.agents/
+/assets/
+
+# editor & OS
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
